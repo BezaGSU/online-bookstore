@@ -15,6 +15,12 @@ public class QuoteController {
 		return "newQuote";
 	}
 	
+	@GetMapping
+	public String getRoomNumber() {
+		
+		return "100";
+	}
+	
 	
 	@PostMapping
 	public String SubmitQuoteRequest() {
