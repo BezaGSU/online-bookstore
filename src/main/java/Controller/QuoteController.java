@@ -20,7 +20,11 @@ public class QuoteController {
 		
 		return "100";
 	}
-	
+	@GetMapping
+	public String getRoomType() {
+		
+		return "Master Bed";
+	}
 	
 	@PostMapping
 	public String SubmitQuoteRequest() {
